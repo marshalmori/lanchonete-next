@@ -8,11 +8,11 @@ const Sidebar = () => {
   return (
     <>
       <Image
-        width={150}
+        width={200}
         height={100}
         src="/assets/img/logo.svg"
         alt="imagen logotipo"
-        className="w-full p-6"
+        className="p-2 items-center"
       />
 
       <nav className="mt-10">
