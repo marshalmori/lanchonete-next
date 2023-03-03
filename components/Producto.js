@@ -20,7 +20,7 @@ const Producto = ({ producto }) => {
           {formatearDinero(precio)}
         </p>
 
-        <buttton
+        <button
           type="button"
           className="bg-indigo-600 hover:bg-indigo-800 text-center text-white w-full mt-5 p-3 uppercase font-bold"
           onClick={() => {
@@ -28,7 +28,7 @@ const Producto = ({ producto }) => {
           }}
         >
           Agregar
-        </buttton>
+        </button>
       </div>
     </div>
   );
